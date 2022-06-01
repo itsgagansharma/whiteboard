@@ -1,0 +1,69 @@
+<!-- name - gagan sharma (23913), apoorv singh(23912)
+ cse-2
+ OS project ->> WHITE-BOARD
+   -->
+
+
+
+
+ <!DOCTYPE html>
+ <html lang="en">
+   <head>
+     <meta charset="UTF-8" />
+     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link
+       rel="stylesheet"
+       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+       integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+       crossorigin="anonymous"
+       referrerpolicy="no-referrer"
+     />
+     <title>WhiteBoard</title>
+     <link rel="stylesheet" href="whiteboard.css" />
+   </head>
+   <body>
+     <div class="options-cont">
+       <i class="fa fa-bars" aria-hidden="true"></i>
+     </div>
+     <div class="tools-cont">
+       <img class="pencil" src="/images/whiteboard_clone/pencil-alt-solid.svg"  />
+       <img class="eraser" src="/images/whiteboard_clone/eraser-solid.svg" />
+       <img class="download" src="/images/whiteboard_clone/download-solid.svg"  />
+       <img class="upload" src="/images/whiteboard_clone/upload-solid.svg" />
+       <img class="sticky" src="/images/whiteboard_clone/sticky-note-solid.svg"  />
+       <img class="redo" src="/images/whiteboard_clone/redo-solid.svg" />
+       <img class="undo" src="/images/whiteboard_clone/undo-solid.svg"  />
+     </div>
+       
+ 
+     <div class="pencil-tool-cont">
+       <div class="pencil-width-cont">
+         <input class="pencil-width" type="range" min="2" max="10" value="3" />
+       </div>
+       <div class="pencil-color-cont">
+           <div class="black pencil-color"></div>
+           <div class="blue pencil-color"></div>
+           <div class="red pencil-color"></div>
+       </div>
+     </div>
+     <div class="eraser-tool-cont">
+       <input class="eraser-width" type="range" min="2" max="10" value="3" />
+     </div>
+ 
+     <canvas></canvas>
+ 
+     <!-- <div class="sticky-cont">
+       <div class="header-cont">
+           <div class="minimize"></div>
+           <div class="remove"></div>
+       </div>
+       <div class="note-cont">
+         <textarea ></textarea>
+       </div>
+     </div> -->
+     <script src="./tool.js"></script>
+     <script src="/project/canas.js"></script>
+ 
+   </body>
+ </html>
